@@ -25,8 +25,8 @@ sudo pacman -S zsh --noconfirm
 chsh -s $(which zsh)
 
 # Install necessary applications
-sudo pacman -S --noconfirm yaourt vim xclip i3 chromium base-devel feh qbittorrent skype
+sudo pacman -S --noconfirm coreutils yaourt vim git xclip i3 chromium base-devel feh qbittorrent skype vlc deadbeef ardour smplayer kodi util-linux
 
 # Install from AUR
-yaourt -S --noconfirm oh-my-zsh 
+yaourt -S --noconfirm oh-my-zsh squeeze-git
 
